@@ -16,8 +16,8 @@ public class Main {
 
     ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-    //    Driver d = (Driver) context.getBean("driver");
+//    Driver d = (Driver) context.getBean("d");
     // DI Dependency Injection 依赖注入
-    Tank t = (Tank) context.getBean("tank");
+        Tank t = (Tank) context.getBean("tank");
   }
 }
